@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 30rem;
+  text-align: center;
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion-header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.accordion-header .toggleIcon:hover {
+  cursor: pointer;
+}
+
+.accordion-content {
+  text-align: left;
+}
+
